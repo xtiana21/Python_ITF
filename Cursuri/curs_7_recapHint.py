@@ -1,4 +1,4 @@
-# daca metoda retirurneaza doar o operatia
+# daca metoda returneaza doar o operatie
 def sum(a, b):
     return a + b
 

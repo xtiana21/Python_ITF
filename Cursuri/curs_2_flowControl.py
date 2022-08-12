@@ -79,37 +79,42 @@ else:
 # recapitulare
 
 #if
-# zi = input('Alege o zi')
-# if zi == 'marti' or zi == 'Marti':
-#     print('azi avem curs')
-#
-# if zi.lower() == 'marti':
-#     print('azi avem curs')
+zi = input('Alege o zi')
+if zi == 'marti' or zi == 'Marti':
+    print('azi avem curs')
+
+if zi.lower() == 'marti':
+    print('azi avem curs')
+
+
 
 #if else
+
 NOTA_DE_TRECERE_EXAMEN = 4.5
 NOTA_DE_TRECERE_PURTARE = 7
 
-# nota_examen = float(input('Introdu nota examen:'))
-# nota_purtare = int(input('Introdu nota purtare:'))
-#
-# if nota_examen >= NOTA_DE_TRECERE_EXAMEN and nota_purtare >= NOTA_DE_TRECERE_PURTARE:
-#     print('Ai trecut clasa!')
-#     if nota_examen == 10 and nota_purtare == 10:
-#         print('Ai luat premul 1!')
-# else:
-#     print('Ai picat!')
+nota_examen = float(input('Introdu nota examen:'))
+nota_purtare = int(input('Introdu nota purtare:'))
+
+if nota_examen >= NOTA_DE_TRECERE_EXAMEN and nota_purtare >= NOTA_DE_TRECERE_PURTARE:
+    print('Ai trecut clasa!')
+    if nota_examen == 10 and nota_purtare == 10:
+        print('Ai luat premul 1!')
+else:
+    print('Ai picat!')
+
+
 
 #if, elif, else
 
-# varsta = int(input('Varsta este:'))
-# if varsta < 14:
-#     print('Este minor')
-# elif varsta < 18:
-#     print('Este minor cu buletin')
-# else:
-#     print('Este major')
+varsta = int(input('Varsta este:'))
+if varsta < 14:
+    print('Este minor')
+elif varsta < 18:
+    print('Este minor cu buletin')
+else:
+    print('Este major')
 
-# nume = input('nume')
-# if not(nume) == 'Vasile':
-#     print('numele nu e corect')
+nume = input('nume')
+if not(nume) == 'Vasile':
+    print('numele nu e corect')
